@@ -40,7 +40,7 @@ Resources:
                 "cognito-identity.amazonaws.com:aud":
                   Ref: CognitoIdentityPool
               "ForAnyValue:StringLike":
-                "cognito-identity.amazonaws.com:amr": authentic
+                "cognito-identity.amazonaws.com:amr": authenticated
       Policies:
         - PolicyName: "CognitoAuthorizedPolicy"
           PolicyDocument:
